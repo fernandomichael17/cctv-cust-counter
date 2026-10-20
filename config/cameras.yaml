@@ -1,0 +1,29 @@
+# URL RTSP disimpan sebagai environment variable, jangan ditulis di sini.
+# Titik garis memakai koordinat NORMALISASI 0..1, mengikuti ukuran frame.
+# inside_side: 1 jika sisi dalam mall berada di sisi POSITIF garis berarah p1->p2,
+# -1 jika di sisi NEGATIF. Uji di lokasi menggunakan video nyata.
+cameras:
+  - id: gate_a
+    env: RTSP_GATE_A
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: 1
+  - id: gate_b
+    env: RTSP_GATE_B
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: -1
+  - id: gate_c
+    env: RTSP_GATE_C
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: 1
+  - id: gate_d
+    env: RTSP_GATE_D
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: 1
+  - id: gate_e
+    env: RTSP_GATE_E
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: 1
+  - id: gate_f
+    env: RTSP_GATE_F
+    line: [[0.15, 0.50], [0.85, 0.50]]
+    inside_side: 1
